@@ -1,0 +1,97 @@
+.background {
+            
+            background-image: url(assets/3d-render-sunglasses-shopping-cart-illustration-design.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Toolbar */
+        .toolbar {
+            background: #fff;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        /* Product card */
+        .product {
+            background: #fff;
+            border-radius: 6px;
+            padding: 10px;
+            height: 100%;
+
+        }
+
+        .product h6 {
+            font-size: 15px;
+            margin: 6px 0 2px;
+        }
+
+        .price {
+            color: #198754;
+            font-weight: bold;
+        }
+
+        /* Image */
+        .carousel-item img {
+            height: 160px;
+
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .grid-view {
+            width: 220px;
+        }
+
+        /* List view */
+        .product-list-view {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .list-view {
+
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            width: 870px;
+            gap: 20px;
+            
+        }
+
+
+        .product-item {
+            display: flex;
+        }
+
+
+
+        .carousel {
+            width: 200px;
+            margin-right: 12px;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Pagination */
+        .pagination button {
+            border: none;
+            background: #fff;
+            padding: 6px 10px;
+            margin: 0 3px;
+            border-radius: 4px;
+        }
+
+        .pagination button.active {
+            background: #0d6efd;
+            color: #fff;
+        }
